@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.HomeFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            android:text="Choose Option"
+            android:textStyle="bold"
+            android:textColor="#0000B9"
+            android:textSize="20dp" />
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/option_spinner"
+            android:layout_margin="10dp"
+            android:background="#808080"
+            android:entries="@array/search_options"
+            android:padding="5dp"
+            android:prompt="@string/search_prompt"
+            android:spinnerMode="dialog" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Choose City"
+            android:textStyle="bold"
+            android:layout_margin="10dp"
+            android:padding="5dp"
+            android:textColor="#0000B9"
+            android:textSize="20dp"/>
+
+        <android.support.v7.widget.AppCompatSpinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/city_spinner"
+            android:entries="@array/city_options"
+            android:prompt="@string/city_prompt"
+            android:layout_margin="10dp"
+            android:padding="5dp"
+            android:background="#808080"
+            android:spinnerMode="dialog"/>
+
+
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_search"
+            android:textSize="15dp"
+            android:text="Search"
+            android:layout_gravity="center"
+            android:textColor="@android:color/white"
+            android:background="@drawable/button_shape2"
+            android:layout_marginTop="60dp"
+            android:padding="6dp"/>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

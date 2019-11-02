@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "842824573182",
+    "firebase_url": "https://rent-cccef.firebaseio.com",
+    "project_id": "rent-cccef",
+    "storage_bucket": "rent-cccef.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:842824573182:android:1071e54056ce3f8e3145af",
+        "android_client_info": {
+          "package_name": "com.example.rent"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "842824573182-7hjspq8ni0s29caa6m490810vc56pqch.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.rent",
+            "certificate_hash": "3258ba8ba365107d6d89ccbae8bdda0a4ca60ad2"
+          }
+        },
+        {
+          "client_id": "842824573182-rhr0ofiq1plb1no774l4b3cnd0qc6acg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCcKpcdQm_C4mg9jQ_M7lyComm3J_2l2OY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "842824573182-rhr0ofiq1plb1no774l4b3cnd0qc6acg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

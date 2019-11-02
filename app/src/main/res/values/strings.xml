@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Find Home</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="drawer_open">drawer open</string>
+    <string name="drawer_close">drawer close</string>
+
+    <string name="search_prompt">Choose a country</string>
+    <string-array name="search_options">
+        <item>Buy</item>
+        <item>Rent</item>
+    </string-array>
+
+
+    <string name="city_prompt">Choose a City</string>
+    <string-array name="city_options">
+        <item>Kurla</item>
+        <item>Thane</item>
+        <item>Sion</item>
+    </string-array>
+</resources>

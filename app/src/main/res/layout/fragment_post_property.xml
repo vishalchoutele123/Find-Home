@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.PostPropertyFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+<!--            <EditText-->
+<!--                android:id="@+id/post_option"-->
+<!--                android:layout_width="250dp"-->
+<!--                android:hint=" Enter Rent or Sell..."-->
+<!--                android:layout_height="45dp"-->
+<!--                android:ems="10"-->
+<!--                android:inputType="text"-->
+<!--                />-->
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/radio_option">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Want To Give on  ..."
+                    android:textSize="25dp"
+                    android:textColor="#0000B9"
+                    android:layout_marginTop="2dp"
+                    android:textStyle="bold"
+                    />
+
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Rent"
+                    android:textColor="@android:color/holo_blue_dark"
+                    android:id="@+id/radio_rent"
+                    android:textSize="19dp"
+                    />
+
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Sell"
+                    android:textColor="@android:color/holo_blue_dark"
+                    android:id="@+id/radio_sell"
+                    android:textSize="19dp"
+                    />
+
+            </RadioGroup>
+
+
+
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/radio_type">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Want To Give on  ..."
+                    android:textSize="25dp"
+                    android:textColor="#0000B9"
+                    android:layout_marginTop="2dp"
+                    android:textStyle="bold"
+                    />
+
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="1 BHK"
+                    android:textColor="@android:color/holo_blue_dark"
+                    android:id="@+id/radio_1bhk"
+                    android:textSize="19dp"
+                    />
+
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="2 BHK"
+                    android:textColor="@android:color/holo_blue_dark"
+                    android:id="@+id/radio_2bhk"
+                    android:textSize="19dp"
+                    />
+
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="3 BHK"
+                    android:textColor="@android:color/holo_blue_dark"
+                    android:id="@+id/radio_3bhk"
+                    android:textSize="19dp"
+                    />
+
+            </RadioGroup>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#0000B9"
+            android:text="Price.."
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:paddingTop="2dp"
+            />
+
+            <EditText
+                android:id="@+id/post_price"
+                android:layout_width="match_parent"
+                android:hint="Enter price"
+                android:layout_height="45dp"
+                android:ems="10"
+                android:inputType="text"
+                />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Enter City ..."
+            android:textColor="#0000B9"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:paddingTop="2dp"/>
+
+<!--            <EditText-->
+<!--                android:id="@+id/post_city"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="45dp"-->
+<!--                android:ems="10"-->
+<!--                android:hint=" Enter city "-->
+<!--                android:inputType="text" />-->
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/city_post_spinner"
+                android:entries="@array/city_options"
+                android:prompt="@string/city_prompt"
+                android:layout_margin="10dp"
+                android:padding="5dp"
+                android:background="@android:color/darker_gray"
+                android:spinnerMode="dialog"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Enter Address ..."
+                android:textSize="20dp"
+                android:textColor="#0000B9"
+
+                android:textStyle="bold"
+                android:paddingTop="2dp"/>
+
+            <EditText
+                android:id="@+id/post_address"
+                android:layout_width="match_parent"
+                android:hint=" address comes here ...  "
+                android:layout_height="45dp"
+                android:ems="10"
+                android:inputType="text"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Enter Contact ..."
+                android:textSize="20dp"
+                android:textColor="#0000B9"
+                android:textStyle="bold"
+                android:paddingTop="2dp"/>
+
+            <EditText
+                android:id="@+id/post_contact"
+                android:layout_width="match_parent"
+                android:hint=" Enter mobile no.  "
+                android:layout_height="45dp"
+                android:ems="10"
+                android:inputType="number"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+               >
+
+                <android.support.v7.widget.AppCompatImageView
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:id="@+id/post_image1"
+                    android:src="@drawable/ic_photo_size_select_actual_black_24dp"
+                    android:layout_marginLeft="10dp"
+                    />
+
+
+            </LinearLayout>
+            <Button
+                android:id="@+id/post"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="150dp"
+                android:layout_marginBottom="30dp"
+                android:padding="2dp"
+                android:text="Post"
+                android:textAlignment="center"
+                android:textSize="20dp" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</FrameLayout>

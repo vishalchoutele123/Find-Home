@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:id="@+id/group"
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_home"
+            android:title="Home"
+            />
+        <item
+            android:id="@+id/nav_profile"
+            android:title="Profile"/>
+        <item android:id="@+id/nav_my_property"
+            android:title="My Property"/>
+
+<!--        <item android:id="@+id/nav_shortlist"-->
+<!--            android:title="My ShortListed"/>-->
+
+        <item
+            android:id="@+id/nav_logout"
+            android:title="Logout"/>
+    </group>
+
+
+</menu>
